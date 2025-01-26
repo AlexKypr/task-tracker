@@ -1,6 +1,6 @@
 package cmd
 
-func markDone(args []string) error {
+func (c *CLI) markDone(args []string) error {
 	// @todo: implement it
 	return nil
 }

@@ -3,7 +3,7 @@ package cmd
 import "fmt"
 
 // showHelp displays the usage instructions and available commands for the task-cli.
-func showHelp() {
+func (c *CLI) showHelp() {
 	fmt.Println(`
 Usage:
     task-cli <command> [arguments]

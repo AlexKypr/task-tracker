@@ -1,6 +1,6 @@
 package cmd
 
-func markInProgress(args []string) error {
+func (c *CLI) markInProgress(args []string) error {
 	// @todo: implement it
 	return nil
 }
